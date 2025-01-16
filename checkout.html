@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Store Name - Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+              <a href="index.html" class="logo-link">
+                <img src="images/store_logo.png" alt="Store Logo" class="logo">
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="site-main">
+        <div class="container">
+            <h2>Checkout</h2>
+            <section class="checkout-section">
+                <h3>Order Summary</h3>
+                <div class="cart-items">
+                     <div class="cart-item">
+                        <div class="cart-item-info">
+                            <p class="cart-product-name">Product 1</p>
+                            <p class="cart-product-price">$49.99</p>
+                        </div>
+                        <div class="cart-item-quantity">
+                         Quantity: 1
+                      </div>
+                  </div>
+                    <div class="cart-item">
+                       <div class="cart-item-info">
+                           <p class="cart-product-name">Product 2</p>
+                           <p class="cart-product-price">$39.99</p>
+                       </div>
+                       <div class="cart-item-quantity">
+                          Quantity: 2
+                        </div>
+                    </div>
+                  <div class="cart-item">
+                       <div class="cart-item-info">
+                           <p class="cart-product-name">Product 3</p>
+                           <p class="cart-product-price">$29.99</p>
+                       </div>
+                       <div class="cart-item-quantity">
+                         Quantity: 1
+                       </div>
+                  </div>
+                </div>
+                <div class="order-summary">
+                 <p><strong>Subtotal:</strong> $159.96</p>
+                  <p><strong>Shipping:</strong> $5.00</p>
+                  <p><strong>Total:</strong> $164.96</p>
+                </div>
+
+                <h3>Shipping Information</h3>
+                <form action="confirmation.html" method="post">
+                    <div class="form-group">
+                         <label for="name">Full Name:</label>
+                         <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                         <input type="email" id="email" name="email" required>
+                    </div>
+                   <div class="form-group">
+                       <label for="address">Shipping Address:</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                     <button type="submit" class="button primary-button">Place Order</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2024 Your Store Name. All rights reserved.</p>
+            <nav class="footer-nav">
+                <ul class="footer-links">
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
